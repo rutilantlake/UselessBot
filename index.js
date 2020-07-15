@@ -194,6 +194,12 @@ client.on('message', message => {
                 }
             }
             break;
+        case 'ok':
+            message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732980515380133997/Z.png');
+            break;
+        case 'name':
+            message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732981421643268106/images.png');
+            break;
     }
 
 })
