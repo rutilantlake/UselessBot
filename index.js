@@ -3,6 +3,8 @@ const { Client, Attachment } = require('discord.js')
 const client = new Client();
 const ms = require('ms');
 
+let version = "1.1.5"
+
 require('events').EventEmitter.defaultMaxListeners = 15;
 
 const PREFIX = '-';
@@ -72,7 +74,7 @@ client.on('message', message => {
             break;
         case 'info':
             if (args[1] === 'version') {
-                message.channel.send('Version 1.1.0');
+                message.channel.send('Version '+version);
             } else if (args[1] === 'commands') {
                 const attachment = new Discord.MessageAttachment('./commands.txt')
                 message.channel.send(message.author, attachment)
@@ -177,6 +179,7 @@ client.on('message', message => {
         case 'nani':
             message.channel.send('何')
             message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732955397677252638/2Q.png')
+            break;
         case 'baka':
             message.channel.send('https://thumbs.gfycat.com/ConcreteVibrantDalmatian-size_restricted.gif')
             break;
