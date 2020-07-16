@@ -53,7 +53,7 @@ client.on('message', message => {
 
     if (command === 'website') {
         message.channel.send('https://www.9anime.to')
-    } else if (command === 'info ') {
+    } else if (command === 'info') {
         if (args[1] === 'version') {
             message.channel.send('Version ' + version)
         } else if (args[1] === 'commands') {
@@ -104,13 +104,13 @@ client.on('message', message => {
     } else if (command === 'facepalm'){
         const attachment2 = new Discord.MessageAttachment('./facepalm.gif')
         message.channel.send(attachment2)
-    } else if(command === 'man of culture'){
+    } else if(command === 'manofculture'){
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933234865995786/manofculture.png')
     } else if(command === 'genderequality'){
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933600483475596/Z.png')
     } else if (command === 'judgement'){
         message.channel.send('https://lh3.googleusercontent.com/proxy/pL-5l_cnLUB57MGwWCV6IYdS4nLrc8rFYY5IDdhe-Gj-5Z2Nk4nV7IhaDC4bOTO417K1H7dnryna9ijyHNh7PGiCoL2dB2Tf_F47Fd8')
-    } else if (command === 'the cake is a lie'){
+    } else if (command === 'thecakeisalie'){
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732942482622382201/fetchimage.png')
     } else if (command === 'goodnight'){
         message.channel.send('https://media3.giphy.com/media/exy5cHFTm2mac/giphy.gif')
