@@ -223,7 +223,7 @@ client.on('message', message => {
             message.channel.send('Here all the information of your minecraft server :nerd:')
             ping('94.23.150.142', 25565, (error, response) => {
                 if (error) throw error
-                const Embed = new Discord.MessageEmbed()
+                const Embed2 = new Discord.MessageEmbed()
                     .setTitle('Server Status')
                     .addField('Server IP', response.host)
                     .addField('Server port', response.port)
@@ -232,10 +232,11 @@ client.on('message', message => {
                     .addField('Max players', response.maxPlayers)
                     .setColor(0x55EA2B);
 
-                message.channel.send(Embed)
+                message.channel.send(Embed2)
 
                 console.log(response);
             });
+            break;
 
 
 
