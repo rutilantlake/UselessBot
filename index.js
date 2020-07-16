@@ -4,8 +4,6 @@ const client = new Client();
 const ms = require('ms');
 const ping = require('minecraft-server-util')
 
-const ping = require('minecraft-server-util')
-
 let version = "1.2.7"
 
 require('events').EventEmitter.defaultMaxListeners = 15;
@@ -207,10 +205,10 @@ client.on('message', message => {
             message.channel.send('mc')
             ping('theproslegacy.serverminer.com', 25565, (error, response) => {
                 if (error) throw error
-    
+
                 console.log(response);
             });
-            
+
 
     };
 
