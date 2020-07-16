@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const { Client, Attachment } = require('discord.js')
 const client = new Client();
 const ms = require('ms');
+const ping = require('minecraft-server-util')
 
 const ping = require('minecraft-server-util')
 
@@ -76,7 +77,7 @@ client.on('message', message => {
             break;
         case 'info':
             if (args[1] === 'version') {
-                message.channel.send('Version '+version);
+                message.channel.send('Version ' + version);
             } else if (args[1] === 'commands') {
                 const attachment = new Discord.MessageAttachment('./commands.txt')
                 message.channel.send(message.author, attachment)
@@ -202,8 +203,26 @@ client.on('message', message => {
         case 'name':
             message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732981421643268106/images.png');
             break;
-    }
+        case 'mc':
+            ping('theproslegacy.serverminer.com', 25565, (error, response) => {
+                if (error) throw error
+                const Embed = new Discord.MessageEmbed()
+                    .setTitle('Server Status')
+                    .addField('Server IP', 'theproslegacy.serverminer.com')
+                    .addField('Server port', response.port)
+                    .addField('Server version', response.version)
+                    .addField('Players online', response.onlinePlayers)
+                    .addField('Max players', response.maxPlayers)
+                    .setColor(0x55EA2B)
 
-})
+                message.channel.send(Embed)
+
+                console.log(response);
+                break;
+            });
+
+    };
+
+});
 
 client.login(process.env.token);
