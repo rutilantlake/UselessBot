@@ -205,6 +205,16 @@ client.on('message', message => {
             message.channel.send('mc')
             ping('theproslegacy.serverminer.com', 25565, (error, response) => {
                 if (error) throw error
+                const Embed = new Discord.MessageEmbed()
+                    .setTitle('Server Status')
+                    .addField('Server IP', response.host)
+                    .addField('Server port', response.port)
+                    .addField('Server version', response.version)
+                    .addField('Players online', response.onlinePlayers)
+                    .addField('Max players', response.maxPlayers)
+                    .setColor(0x55EA2B);
+
+                message.channel.send(Embed)
 
                 console.log(response);
             });
