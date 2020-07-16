@@ -202,13 +202,6 @@ client.on('message', message => {
         case 'name':
             message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732981421643268106/images.png');
             break;
-        case 'mc':
-            ping('theproslegacy.serverminer.com', 25565, (error, response) =>{
-                if(error) throw error
-
-                console.log(response)
-            })
-        break;
     }
 
 })
