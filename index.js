@@ -221,7 +221,7 @@ client.on('message', message => {
             break;
         case 'mcserver':
             message.channel.send('Here all the information of your minecraft server :nerd:')
-            ping('94.23.150.142', 25565, (error, response) => {
+            ping('94.23.150.142', 25591, (error, response) => {
                 if (error) throw error
                 const Embed2 = new Discord.MessageEmbed()
                     .setTitle('Server Status')
