@@ -39,3 +39,5 @@ Info:
 -info (doesn't exist baka)
 -pirate_website (anime streaming website)
 -userinformation
+-mc (info The Pros)
+-mcserver (info Dawn's server)

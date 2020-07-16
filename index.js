@@ -202,8 +202,26 @@ client.on('message', message => {
             message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732981421643268106/images.png');
             break;
         case 'mc':
-            message.channel.send('mc')
+            message.channel.send('Here all the information of your minecraft server :nerd:')
             ping('theproslegacy.serverminer.com', 25565, (error, response) => {
+                if (error) throw error
+                const Embed = new Discord.MessageEmbed()
+                    .setTitle('Server Status')
+                    .addField('Server IP', 'theproslegacy.serverminer.com')
+                    .addField('Server port', response.port)
+                    .addField('Server version', response.version)
+                    .addField('Players online', response.onlinePlayers)
+                    .addField('Max players', response.maxPlayers)
+                    .setColor(0x55EA2B);
+
+                message.channel.send(Embed)
+
+                console.log(response);
+            });
+            break;
+        case 'mcserver':
+            message.channel.send('Here all the information of your minecraft server :nerd:')
+            ping('94.23.150.142', 25565, (error, response) => {
                 if (error) throw error
                 const Embed = new Discord.MessageEmbed()
                     .setTitle('Server Status')
@@ -218,6 +236,7 @@ client.on('message', message => {
 
                 console.log(response);
             });
+
 
 
     };
