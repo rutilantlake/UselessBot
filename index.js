@@ -18,47 +18,25 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'i love you') {
         message.reply(' i love emilia');
-    }
-})
-
-client.on('message', message => {
-    if (message.content === 'why') {
+    } else if (message.content === 'why') {
         message.channel.send('https://tenor.com/view/confused-white-persian-guardian-why-gif-11908780');
-    }
-})
 
-client.on('message', message => {
-    if (message.content === 'hehe') {
+    } else if (message.content === 'hehe') {
         message.channel.send('https://tenor.com/view/sensual-wink-blush-anime-animation-gif-5628679');
-    }
-})
 
-client.on('message', message => {
-    if (message.content === 'hey') {
-        message.channel.send('https://imgur.com/9QamQDE');
-    }
-})
+    } else if(message.content === 'hey') {
+        message.channel.send('https://tenor.com/view/sensual-wink-blush-anime-animation-gif-5628679');
 
-client.on('message', message => {
-    if (message.content === 'huh') {
+    } else if(message.content === 'huh'){
         message.channel.send('https://tenor.com/view/umm-confused-wtf-blinking-okay-gif-7513882');
-    }
-})
 
-client.on('message', message => {
-    if (message.content === "cute") {
+    } else if(message.content === 'cute') {
         message.channel.send('https://tenor.com/view/okawaii-koto-thinking-anime-gif-17468931')
-    }
-})
 
-client.on('message', message => {
-    if (message.content === "omg") {
+    } else if(message.content === 'omg'){
         message.channel.send('https://tenor.com/view/oh-my-god-oh-my-gah-anime-cooking-gif-13579892')
-    }
-})
 
-client.on('message', message => {
-    if (message.content === "no") {
+    } else if(message.content === 'no'){
         const attachment = new Discord.MessageAttachment('./sitboy.gif')
         message.channel.send(attachment)
     }
