@@ -62,10 +62,8 @@ client.on('message', message => {
         } else {
             message.channel.send('Made by pink ;D')
         }
-    } else if (command === "you're") {
-        if (args[1] === 'useless') {
+    } else if (command === "you'reuseless") {
             message.channel.send("I'm not useless, i'm a goddess... Baka")
-        }
 
     } else if (command === 'explosion') {
         message.channel.send('https://tenor.com/view/konosoba-megumin-explosion-gif-7559840')
@@ -100,7 +98,7 @@ client.on('message', message => {
         message.channel.send('https://media1.tenor.com/images/c1246556aa5726ad6c0ee50f2c3998ce/tenor.gif?itemid=7864657')
     } else if (command === 'dance') {
         message.channel.send('https://media.tenor.com/images/3f324bbd9577d28eb1fb364ad9f2acfe/tenor.gif')
-    } else if(command === 'smoll brain'){
+    } else if(command === 'smollbrain'){
         message.channel.send('smoll brain baka')
         message.channel.send('https://i.imgur.com/he3ywUg.png0')
     } else if (command === 'facepalm'){
@@ -108,7 +106,7 @@ client.on('message', message => {
         message.channel.send(attachment2)
     } else if(command === 'man of culture'){
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933234865995786/manofculture.png')
-    } else if(command === 'gender equality'){
+    } else if(command === 'genderequality'){
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933600483475596/Z.png')
     } else if (command === 'judgement'){
         message.channel.send('https://lh3.googleusercontent.com/proxy/pL-5l_cnLUB57MGwWCV6IYdS4nLrc8rFYY5IDdhe-Gj-5Z2Nk4nV7IhaDC4bOTO417K1H7dnryna9ijyHNh7PGiCoL2dB2Tf_F47Fd8')
@@ -127,10 +125,6 @@ client.on('message', message => {
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732955397677252638/2Q.png')
     } else if (command === 'baka'){
         message.channel.send('https://thumbs.gfycat.com/ConcreteVibrantDalmatian-size_restricted.gif')
-    } else if("oh you're approaching me"){
-        message.channel.send("Instead of running away you're coming straight towards me");
-        const attachment3 = new Discord.MessageAttachment('./manga.png');
-        message.channel.send(attachment3)
     } else if(command === 'ok'){
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732980515380133997/Z.png');
     } else if(command === 'name'){
