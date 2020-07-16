@@ -16,7 +16,7 @@ const prefix = '-';
 
 client.on('ready', () => {
     console.log('This bot is online!');
-    client.user.setActivity('anime', { type: 'WATCHING' });
+    client.user.setActivity('-info commands for the commands.', { type: 'PLAYING' });
 })
 
 client.on('message', message => {
