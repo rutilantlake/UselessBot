@@ -9,7 +9,7 @@ let version = "1.2.7"
 
 require('events').EventEmitter.defaultMaxListeners = 15;
 
-const PREFIX = '-';
+const prefix = '-';
 
 client.on('ready', () => {
     console.log('This bot is online!');
