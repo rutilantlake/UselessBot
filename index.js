@@ -25,7 +25,7 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/sensual-wink-blush-anime-animation-gif-5628679');
 
     } else if(message.content === 'hey') {
-        message.channel.send('https://tenor.com/view/sensual-wink-blush-anime-animation-gif-5628679');
+        message.channel.send('https://imgur.com/9QamQDE');
 
     } else if(message.content === 'huh'){
         message.channel.send('https://tenor.com/view/umm-confused-wtf-blinking-okay-gif-7513882');
