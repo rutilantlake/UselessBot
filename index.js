@@ -6,6 +6,7 @@ const ping = require('minecraft-server-util');
 const { setTimeout } = require('timers');
 const { send } = require('process');
 const { groupCollapsed } = require('console');
+const { getHeapSpaceStatistics } = require('v8');
 
 let version = "1.2.7"
 
@@ -54,14 +55,15 @@ client.on('message', message => {
     if (command === 'website') {
         message.channel.send('https://www.9anime.to')
     } else if (command === 'info') {
-        if (args[1] === 'version') {
-            message.channel.send('Version ' + version)
-        } else if (args[1] === 'commands') {
-            const attachment = new Discord.MessageAttachment('./commands.txt')
-            message.channel.send(message.author, attachment)
-        } else {
-            message.channel.send('Made by pink ;D')
-        }
+        message.channel.send("This bot is made by •Pink•#4934, please contact me if there are any bugs. Don't use any space, this will be fixed in the near future.")
+    }else if(command === 'infoversion'){
+        message.channel.send('Version '+ version)
+    } else if(command === 'infocommands'){
+
+
+
+
+
     } else if (command === "you'reuseless") {
             message.channel.send("I'm not useless, i'm a goddess... Baka")
 
@@ -165,6 +167,10 @@ client.on('message', message => {
             console.log(response);
         });
 
+    } else if(command === "ohyoureapproachingme"){
+        message.channel.send("Instead of running away you're coming straight towards me");
+        const attachment3 = new Discord.MessageAttachment('./manga.png');
+        message.channel.send(attachment3);
     }
 })
 
