@@ -53,7 +53,7 @@ client.on('message', message => {
 
     if (command === 'website') {
         message.channel.send('https://www.9anime.to')
-    } else if (command === 'info') {
+    } else if (command === 'info ') {
         if (args[1] === 'version') {
             message.channel.send('Version ' + version)
         } else if (args[1] === 'commands') {
