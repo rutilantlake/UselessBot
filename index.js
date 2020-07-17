@@ -37,10 +37,14 @@ client.on('message', message => {
     } else if (message.content === 'no') {
         const attachment = new Discord.MessageAttachment('./sitboy.gif')
         message.channel.send(attachment)
-    } else if(message.content === 'please'){
+    } else if (message.content === 'please') {
         message.channel.send('https://tenor.com/view/skipbeat-kyoko-mogami-cry-huhu-gif-8564038')
-    } else if (message.content === 'nice'){
+    } else if (message.content === 'nice') {
         message.channel.send('https://tenor.com/view/one-piece-anime-luffy-sparkling-eyes-gif-5645928')
+    } else if(command.content === 'UwU'){
+        message.channel.send('https://tenor.com/view/smug-anime-face-gif-6194051')
+    } else if(command.content === 'OwO'){
+        message.channel.send('https://tenor.com/view/owo-whats-this-intensifies-mad-gif-12266002')
     }
 })
 
@@ -54,14 +58,15 @@ client.on('message', message => {
         message.channel.send('https://www.9anime.to')
     } else if (command === 'info') {
         message.channel.send("This bot is made by •Pink•#4934, please contact me if there are any bugs. Don't use any space, this will be fixed in the near future.")
-    }else if(command === 'infoversion'){
-        message.channel.send('Version '+ version)
-    } else if(command === 'infocommands'){
-         const commands = new Discord.MessageAttachment('./commands.txt');
-         message.channel.send(commands);
+    } else if (command === 'infoversion') {
+        message.channel.send('Version ' + version)
+    } else if (command === 'infocommands') {
+        const commands = new Discord.MessageAttachment('./commands.txt');
+        message.channel.send(commands);
     } else if (command === "you'reuseless") {
-            message.channel.send("I'm not useless, i'm a goddess... Baka")
-
+        message.channel.send("I'm not useless, i'm a goddess... Baka")
+    } else if (command === "you'restupid") {
+        message.channel.send("no u")
     } else if (command === 'explosion') {
         message.channel.send('https://tenor.com/view/konosoba-megumin-explosion-gif-7559840')
     } else if (command === 'userinformation') {
@@ -95,38 +100,38 @@ client.on('message', message => {
         message.channel.send('https://media1.tenor.com/images/c1246556aa5726ad6c0ee50f2c3998ce/tenor.gif?itemid=7864657')
     } else if (command === 'dance') {
         message.channel.send('https://media.tenor.com/images/3f324bbd9577d28eb1fb364ad9f2acfe/tenor.gif')
-    } else if(command === 'smollbrain'){
+    } else if (command === 'smollbrain') {
         message.channel.send('smoll brain baka')
         message.channel.send('https://i.imgur.com/he3ywUg.png0')
-    } else if (command === 'facepalm'){
+    } else if (command === 'facepalm') {
         const attachment2 = new Discord.MessageAttachment('./facepalm.gif')
         message.channel.send(attachment2)
-    } else if(command === 'manofculture'){
+    } else if (command === 'manofculture') {
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933234865995786/manofculture.png')
-    } else if(command === 'genderequality'){
+    } else if (command === 'genderequality') {
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933600483475596/Z.png')
-    } else if (command === 'judgement'){
+    } else if (command === 'judgement') {
         message.channel.send('https://lh3.googleusercontent.com/proxy/pL-5l_cnLUB57MGwWCV6IYdS4nLrc8rFYY5IDdhe-Gj-5Z2Nk4nV7IhaDC4bOTO417K1H7dnryna9ijyHNh7PGiCoL2dB2Tf_F47Fd8')
-    } else if (command === 'thecakeisalie'){
+    } else if (command === 'thecakeisalie') {
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732942482622382201/fetchimage.png')
-    } else if (command === 'goodnight'){
+    } else if (command === 'goodnight') {
         message.channel.send('https://media3.giphy.com/media/exy5cHFTm2mac/giphy.gif')
-    } else if(command === 'objection'){
+    } else if (command === 'objection') {
         message.channel.send('https://tenor.com/view/objection-court-judge-object-lol-gif-4833328')
-    } else if(command === 'pathetic'){
+    } else if (command === 'pathetic') {
         message.channel.send('https://data.whicdn.com/images/269339758/original.gif')
-    } else if(command === 'begin'){
+    } else if (command === 'begin') {
         message.channel.send('https://tenor.com/view/no-game-no-life-stare-evil-sora-game-gif-15177821')
-    } else if(command === 'nani'){
+    } else if (command === 'nani') {
         message.channel.send('何')
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732955397677252638/2Q.png')
-    } else if (command === 'baka'){
+    } else if (command === 'baka') {
         message.channel.send('https://thumbs.gfycat.com/ConcreteVibrantDalmatian-size_restricted.gif')
-    } else if(command === 'ok'){
+    } else if (command === 'ok') {
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732980515380133997/Z.png');
-    } else if(command === 'name'){
+    } else if (command === 'name') {
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732981421643268106/images.png');
-    } else if(command === 'mc'){
+    } else if (command === 'mc') {
         message.channel.send('Here all the information of your minecraft server :nerd:')
         ping('theproslegacy.serverminer.com', 25565, (error, response) => {
             if (error) throw error
@@ -144,7 +149,7 @@ client.on('message', message => {
             console.log(response);
         });
 
-    } else if (command === 'mcserver'){
+    } else if (command === 'mcserver') {
         message.channel.send('Here all the information of your minecraft server :nerd:')
         ping('94.23.150.142', 25591, (error, response) => {
             if (error) throw error
@@ -162,11 +167,11 @@ client.on('message', message => {
             console.log(response);
         });
 
-    } else if(command === "ohyoureapproachingme"){
+    } else if (command === "ohyoureapproachingme") {
         message.channel.send("Instead of running away you're coming straight towards me");
         const attachment3 = new Discord.MessageAttachment('./manga.png');
         message.channel.send(attachment3);
-    } else if(command === 'itadakimasu'){
+    } else if (command === 'itadakimasu') {
         message.channel.send('https://tenor.com/view/tsurugaren-skipbeat-appreciation-gif-4747495');
     }
 })
