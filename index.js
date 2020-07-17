@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const { Client, Attachment } = require('discord.js')
 const client = new Client();
+const { Client, MessageEmbed} = require('discord.js')
 const ms = require('ms');
 const ping = require('minecraft-server-util');
 const { setTimeout } = require('timers');
@@ -168,7 +169,15 @@ client.on('message', message => {
         message.channel.send(attachment3);
     } else if(command === 'itadakimasu'){
         message.channel.send('https://tenor.com/view/tsurugaren-skipbeat-appreciation-gif-4747495');
-    } 
+    } else if(command === 'help'){
+        const Embed = new Discord.MessageEmbed()
+        .setTitle("Helper Embed")
+        .setColor(0xFF0000)
+        .setDescription("Make sure to use the !help to get access to the commands");
+
+        message.author.send(Embed);
+
+    }
 })
 
 client.login(process.env.token);
