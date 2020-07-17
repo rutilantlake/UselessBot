@@ -63,7 +63,7 @@ client.on('message', message => {
     } else if (command === 'infoversion') {
         message.channel.send('Version ' + version)
     } else if (command === 'infocommands') {
-        message.author.send("Fun:\ni love you\n-Oh you're approaching me\n-you'reuseless\n-you'restupid\n-ora\n-muda\n-smoll brain\n-manofculture\n-genderequality\n-nani\n-thecakeisalie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-dance\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
+        message.author.send("Fun:\ni love you\n-ohyou'reapproachingme\n-you'reuseless\n-you'restupid\n-ora\n-muda\n-smoll brain\n-manofculture\n-genderequality\n-nani\n-thecakeisalie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-dance\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
     } else if (command === "you'reuseless") {
         message.channel.send("I'm not useless, i'm a goddess... Baka")
     } else if (command === "you'restupid") {
@@ -95,8 +95,10 @@ client.on('message', message => {
         message.channel.send(ballembed)
     } else if (command === 'ora') {
         message.channel.send('ORA ORA ORA ORA ORA')
+        message.channel.send('https://tenor.com/view/ora-star-platinum-jo-jos-bizarre-adventure-jojo-gif-5505650')
     } else if (command === 'muda') {
         message.channel.send('MUDA MUDA MUDA MUDA MUDA MUDA')
+        message.channel.send('https://tenor.com/view/muda-muda-giorno-giovanna-jo-jo-gold-experience-muda-gif-14208660')
     } else if (command === 'slap') {
         message.channel.send('https://media1.tenor.com/images/c1246556aa5726ad6c0ee50f2c3998ce/tenor.gif?itemid=7864657')
     } else if (command === 'dance') {
@@ -168,7 +170,7 @@ client.on('message', message => {
             console.log(response);
         });
 
-    } else if (command === "ohyoureapproachingme") {
+    } else if (command === "ohyou'reapproachingme") {
         message.channel.send("Instead of running away you're coming straight towards me");
         const attachment3 = new Discord.MessageAttachment('./manga.png');
         message.channel.send(attachment3);
