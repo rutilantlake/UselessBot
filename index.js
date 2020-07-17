@@ -41,9 +41,9 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/skipbeat-kyoko-mogami-cry-huhu-gif-8564038')
     } else if (message.content === 'nice') {
         message.channel.send('https://tenor.com/view/one-piece-anime-luffy-sparkling-eyes-gif-5645928')
-    } else if(command.content === 'UwU'){
+    } else if (message.content === 'UwU') {
         message.channel.send('https://tenor.com/view/smug-anime-face-gif-6194051')
-    } else if(command.content === 'OwO'){
+    } else if (message.content === 'OwO') {
         message.channel.send('https://tenor.com/view/owo-whats-this-intensifies-mad-gif-12266002')
     }
 })
