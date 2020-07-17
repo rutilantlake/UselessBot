@@ -59,7 +59,7 @@ client.on('message', message => {
     }else if(command === 'infoversion'){
         message.channel.send('Version '+ version)
     } else if(command === 'infocommands'){
-         const commands = new Attachment('./commands.txt');
+         const commands = new Discord.MessageAttachment('./commands.txt');
          message.channel.send(commands);
     } else if (command === "you'reuseless") {
             message.channel.send("I'm not useless, i'm a goddess... Baka")
