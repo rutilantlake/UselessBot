@@ -45,6 +45,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/smug-anime-face-gif-6194051')
     } else if (message.content === 'OwO') {
         message.channel.send('https://tenor.com/view/owo-whats-this-intensifies-mad-gif-12266002')
+    } else if(message.content === ":3"){
+        message.channel.send('https://tenor.com/view/nekopara-anime-smile-happy-delighted-gif-16605255')
     }
 })
 
@@ -61,8 +63,7 @@ client.on('message', message => {
     } else if (command === 'infoversion') {
         message.channel.send('Version ' + version)
     } else if (command === 'infocommands') {
-        const commands = new Discord.MessageAttachment('./commands.txt');
-        message.channel.send(commands);
+        message.author.send("Fun:\ni love you\n-Oh you're approaching me\n-you'reuseless\n-you'restupid\n-ora\n-muda\n-smoll brain\n-manofculture\n-genderequality\n-nani\n-thecakeisalie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-dance\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
     } else if (command === "you'reuseless") {
         message.channel.send("I'm not useless, i'm a goddess... Baka")
     } else if (command === "you'restupid") {
