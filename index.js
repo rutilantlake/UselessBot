@@ -176,6 +176,9 @@ client.on('message', message => {
         message.channel.send(attachment3);
     } else if (command === 'itadakimasu') {
         message.channel.send('https://tenor.com/view/tsurugaren-skipbeat-appreciation-gif-4747495');
+    } else if(command === 'zawarudo'){
+        message.channel.send('ZA WARUDOOOOOO')
+        message.channel.send('https://tenor.com/view/za-warudo-zawarudo-the-world-gif-10578246')
     }
 })
 
