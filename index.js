@@ -24,25 +24,23 @@ client.on('message', message => {
         message.reply(' i love emilia');
     } else if (message.content === 'why') {
         message.channel.send('https://tenor.com/view/confused-white-persian-guardian-why-gif-11908780');
-
     } else if (message.content === 'hehe') {
         message.channel.send('https://tenor.com/view/sensual-wink-blush-anime-animation-gif-5628679');
-
     } else if (message.content === 'hey') {
         message.channel.send('https://imgur.com/9QamQDE');
-
     } else if (message.content === 'huh') {
         message.channel.send('https://tenor.com/view/umm-confused-wtf-blinking-okay-gif-7513882');
-
     } else if (message.content === 'cute') {
         message.channel.send('https://tenor.com/view/okawaii-koto-thinking-anime-gif-17468931')
-
     } else if (message.content === 'omg') {
         message.channel.send('https://tenor.com/view/oh-my-god-oh-my-gah-anime-cooking-gif-13579892')
-
     } else if (message.content === 'no') {
         const attachment = new Discord.MessageAttachment('./sitboy.gif')
         message.channel.send(attachment)
+    } else if(message.content === 'please'){
+        message.channel.send('https://tenor.com/view/skipbeat-kyoko-mogami-cry-huhu-gif-8564038')
+    } else if (message.content === 'nice'){
+        message.channel.send('https://tenor.com/view/one-piece-anime-luffy-sparkling-eyes-gif-5645928')
     }
 })
 
@@ -168,7 +166,9 @@ client.on('message', message => {
         message.channel.send("Instead of running away you're coming straight towards me");
         const attachment3 = new Discord.MessageAttachment('./manga.png');
         message.channel.send(attachment3);
-    }
+    } else if(command === 'itadakimasu'){
+        message.channel.send('https://tenor.com/view/tsurugaren-skipbeat-appreciation-gif-4747495');
+    } 
 })
 
 client.login(process.env.token);

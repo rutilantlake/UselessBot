@@ -1,19 +1,21 @@
 Fun:
 i love you
 -Oh you're approaching me
--you're useless
--you're stupid
+-you'reuseless
+-you'restupid
 -ora
 -muda
 -8ball (question)
 -smoll brain
--man of culture
--gender equality
+-manofculture
+-genderequality
 -judgement
 -nani
--the cake is a lie
+-thecakeisalie
 -name
 -ok
+-itadakimasu
+
 
 GIF:
 hehe
@@ -22,6 +24,8 @@ omg
 cute
 huh
 no
+please
+nice
 hey
 -baka
 -dance
