@@ -60,7 +60,7 @@ client.on('message', message => {
         message.channel.send('https://www.9anime.to')
     } else if (command === 'info') {
         if (args[0] === 'commands') {
-            message.author.send("Fun:\ni love you\n-ohyou'reapproachingme\n-you'reuseless\n-you'restupid\n-nicecockbro\n-ora\n-muda\n-zawarudo\n-smoll brain\n-manofculture\n-genderequality\n-nani\n-thecakeisalie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-deskbeats\n-niconiconii\n-dance\n-bru\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
+            message.author.send("Fun:\ni love you\n-oh you're approaching me\n-you're useless\n-you're stupid\n-nice cock\n-ora\n-muda\n-za warudo\n-smoll brain\n-man of culture\n-genderequality\n-nani\n-the cake is a lie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-deskbeats\n-nico nico nii\n-dance\n-bru\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
         } else if (args[0] === 'version') {
             message.channel.send('Version ' + version)
         } else if (!args.length) {
@@ -109,14 +109,20 @@ client.on('message', message => {
         message.channel.send('https://media1.tenor.com/images/c1246556aa5726ad6c0ee50f2c3998ce/tenor.gif?itemid=7864657')
     } else if (command === 'dance') {
         message.channel.send('https://media.tenor.com/images/3f324bbd9577d28eb1fb364ad9f2acfe/tenor.gif')
-    } else if (command === 'smollbrain') {
-        message.channel.send('smoll brain baka')
-        message.channel.send('https://i.imgur.com/he3ywUg.png0')
+    } else if (command === 'smoll') {
+        if(args[0]==='brain'){
+            message.channel.send('smoll brain baka')
+            message.channel.send('https://i.imgur.com/he3ywUg.png0')
+        }
     } else if (command === 'facepalm') {
         const attachment2 = new Discord.MessageAttachment('./facepalm.gif')
         message.channel.send(attachment2)
-    } else if (command === 'manofculture') {
-        message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933234865995786/manofculture.png')
+    } else if (command === 'man') {
+        if(args[0]==='of'){
+            if(args[1]==='culture'){
+                message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933234865995786/manofculture.png')
+            }
+        }
     } else if (command === 'genderequality') {
         message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933600483475596/Z.png')
     } else if (command === 'judgement') {
@@ -176,35 +182,44 @@ client.on('message', message => {
             console.log(response);
         });
 
-    } else if (command === "ohyou'reapproachingme") {
-        message.channel.send("Instead of running away you're coming straight towards me");
-        const attachment3 = new Discord.MessageAttachment('./manga.png');
-        message.channel.send(attachment3);
+    } else if (command === "oh") {
+        if (args[0] === "you're") {
+            if (args[1] === 'approaching') {
+                if (args[2] === 'me') {
+                    message.channel.send("Instead of running away you're coming straight towards me");
+                    const attachment3 = new Discord.MessageAttachment('./manga.png');
+                    message.channel.send(attachment3);
+                }
+            }
+        }
     } else if (command === 'itadakimasu') {
         message.channel.send('https://tenor.com/view/tsurugaren-skipbeat-appreciation-gif-4747495');
     } else if (command === 'za') {
-        if(args[0] === 'warudo'){
+        if (args[0] === 'warudo') {
             message.channel.send('ZA WARUDOOOOOO')
             message.channel.send('https://tenor.com/view/za-warudo-zawarudo-the-world-gif-10578246')
         }
     } else if (command === 'deskbeats') {
         message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/733831871393169428/unknown.gif');
     } else if (command === 'nico') {
-        if(args[0] === 'nico'){
-            if(args[1] === 'nii'){
+        if (args[0] === 'nico') {
+            if (args[1] === 'nii') {
                 message.channel.send('https://tenor.com/view/za-warudo-zawarudo-the-world-gif-10578246');
             }
         }
-x    } else if (command === 'nicecockbro') {
-        message.channel.send('https://media.makeameme.org/created/yo-nice-cock.jpg')
+        x
+    } else if (command === 'nice') {
+        if (args[0] === 'cock') {
+            message.channel.send('https://media.makeameme.org/created/yo-nice-cock.jpg')
+        }
     } else if (command === 'bru') {
         message.channel.send('https://tenor.com/view/bruh-gif-5156041')
     } else if (command === 'github') {
         message.channel.send('https://github.com/rutilantlake/UselessBot')
     } else if (command === 'dab') {
         message.channel.send('https://i.redd.it/jkkl5ltfgnf01.png')
-    } else if(command === 'not'){
-        if(args[0] === 'yet'){
+    } else if (command === 'not') {
+        if (args[0] === 'yet') {
             message.channel.send('https://tenor.com/view/phineasandferb-phineas-ferb-notyet-notyetferb-gif-17986942')
         }
     }
