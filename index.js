@@ -225,6 +225,10 @@ client.on('message', message => {
         if (args[0] === 'yet') {
             message.channel.send('https://tenor.com/view/phineasandferb-phineas-ferb-notyet-notyetferb-gif-17986942')
         }
+    } else if(command === 'big'){
+        if(args[0] === 'dig'){
+            message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/743398942208950332/4045c6c.gifs')
+        }
     }
 })
 
