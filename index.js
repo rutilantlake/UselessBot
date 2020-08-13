@@ -61,16 +61,16 @@ client.on('message', message => {
     } else if (command === 'info') {
         if (args[0] === 'commands') {
             message.author.send("Fun:\ni love you\n-ohyou'reapproachingme\n-you'reuseless\n-you'restupid\n-nicecockbro\n-ora\n-muda\n-zawarudo\n-smoll brain\n-manofculture\n-genderequality\n-nani\n-thecakeisalie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-deskbeats\n-niconiconii\n-dance\n-bru\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
-        } else if(args[0] === 'version'){
+        } else if (args[0] === 'version') {
             message.channel.send('Version ' + version)
-        } else if (!args.length){
+        } else if (!args.length) {
             message.channel.send("This bot is made by •Pink•#4934, please contact me if there are any bugs.")
         }
     } else if (command === "you're") {
-        if(args[0] === 'useless'){
+        if (args[0] === 'useless') {
             message.channel.send("I'm not useless i'm a goddess... Baka")
-            message.channel.send('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fgt500btm%2Fkonosuba%2F&psig=AOvVaw3FqW-XjSVDYIiSbd8OlkCJ&ust=1597395470286000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCq1P7nl-sCFQAAAAAdAAAAABAT')
-        } else if(args[0] === 'stupid'){
+            message.channel.send('https://i.pinimg.com/474x/9e/6a/1b/9e6a1b11cc4e059abe5f4df7a0d3a965.jpg')
+        } else if (args[0] === 'stupid') {
             message.channel.send('no u')
         }
     } else if (command === 'explosion') {
@@ -194,6 +194,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/bruh-gif-5156041')
     } else if (command === 'github') {
         message.channel.send('https://github.com/rutilantlake/UselessBot')
+    } else if (command === 'dab') {
+        message.channel.send('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FKonosuba%2Fcomments%2F7wvmj3%2Fim_sorry%2F&psig=AOvVaw3FqW-XjSVDYIiSbd8OlkCJ&ust=1597395470286000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCq1P7nl-sCFQAAAAAdAAAAABAZ')
     }
 })
 
