@@ -48,8 +48,9 @@ client.on('message', message => {
     } else if (message.content === ":3") {
         message.channel.send('https://tenor.com/view/nekopara-anime-smile-happy-delighted-gif-16605255')
     } else if(message.content.includes('rem')){
-        const attachment4 = new Discord.MessageAttachment('./rem.png');
-        message.channel.send(attachment4);    }
+        const attachment4 = new Discord.MessageAttachment('./rem.jpg');
+        message.channel.send(attachment4);    
+    }
 })
 
 
