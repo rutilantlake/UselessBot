@@ -227,7 +227,7 @@ client.on('message', message => {
         }
     } else if(command === 'big'){
         if(args[0] === 'dig'){
-            const attachment5 = new Discord.MessageAttachment('./big.png');
+            const attachment5 = new Discord.MessageAttachment('./big.gif');
             message.channel.send(attachment5);
         }
     }
