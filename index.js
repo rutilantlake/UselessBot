@@ -72,6 +72,7 @@ client.on('message', message => {
             message.channel.send('https://i.pinimg.com/474x/9e/6a/1b/9e6a1b11cc4e059abe5f4df7a0d3a965.jpg')
         } else if (args[0] === 'stupid') {
             message.channel.send('no u')
+            message.channel.send('https://i.pinimg.com/originals/37/78/ef/3778ef8f0b7070b1ad427213b123f143.png')
         }
     } else if (command === 'explosion') {
         message.channel.send('https://tenor.com/view/konosoba-megumin-explosion-gif-7559840')
@@ -195,7 +196,7 @@ client.on('message', message => {
     } else if (command === 'github') {
         message.channel.send('https://github.com/rutilantlake/UselessBot')
     } else if (command === 'dab') {
-        message.channel.send('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FKonosuba%2Fcomments%2F7wvmj3%2Fim_sorry%2F&psig=AOvVaw3FqW-XjSVDYIiSbd8OlkCJ&ust=1597395470286000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCq1P7nl-sCFQAAAAAdAAAAABAZ')
+        message.channel.send('https://i.redd.it/jkkl5ltfgnf01.png')
     }
 })
 
