@@ -182,14 +182,20 @@ client.on('message', message => {
         message.channel.send(attachment3);
     } else if (command === 'itadakimasu') {
         message.channel.send('https://tenor.com/view/tsurugaren-skipbeat-appreciation-gif-4747495');
-    } else if (command === 'zawarudo') {
-        message.channel.send('ZA WARUDOOOOOO')
-        message.channel.send('https://tenor.com/view/za-warudo-zawarudo-the-world-gif-10578246');
+    } else if (command === 'za') {
+        if(args[0] === 'warudo'){
+            message.channel.send('ZA WARUDOOOOOO')
+            message.channel.send('https://tenor.com/view/za-warudo-zawarudo-the-world-gif-10578246')
+        }
     } else if (command === 'deskbeats') {
         message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/733831871393169428/unknown.gif');
-    } else if (command === 'niconiconii') {
-        message.channel.send('https://tenor.com/view/nico-nico-gif-7552264');
-    } else if (command === 'nicecockbro') {
+    } else if (command === 'nico') {
+        if(args[0] === 'nico'){
+            if(args[1] === 'nii'){
+                message.channel.send('https://tenor.com/view/za-warudo-zawarudo-the-world-gif-10578246');
+            }
+        }
+x    } else if (command === 'nicecockbro') {
         message.channel.send('https://media.makeameme.org/created/yo-nice-cock.jpg')
     } else if (command === 'bru') {
         message.channel.send('https://tenor.com/view/bruh-gif-5156041')
@@ -197,6 +203,10 @@ client.on('message', message => {
         message.channel.send('https://github.com/rutilantlake/UselessBot')
     } else if (command === 'dab') {
         message.channel.send('https://i.redd.it/jkkl5ltfgnf01.png')
+    } else if(command === 'not'){
+        if(args[0] === 'yet'){
+            message.channel.send('https://tenor.com/view/phineasandferb-phineas-ferb-notyet-notyetferb-gif-17986942')
+        }
     }
 })
 
