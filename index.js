@@ -47,6 +47,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/owo-whats-this-intensifies-mad-gif-12266002')
     } else if (message.content === ":3") {
         message.channel.send('https://tenor.com/view/nekopara-anime-smile-happy-delighted-gif-16605255')
+    } else if(message.content.includes === 'rem'){
+        message.channel.send("https://res.cloudinary.com/teepublic/image/private/s--JLtdSyZA--/t_Preview/b_rgb:c8e0ec,c_limit,f_jpg,h_630,q_90,w_630/v1559153268/production/designs/4953243_0.jpg")
     }
 })
 
