@@ -63,7 +63,8 @@ client.on('message', message => {
     } else if (command === 'infoversion') {
         message.channel.send('Version ' + version)
     } else if (command === 'infocommands') {
-        message.author.send("Fun:\ni love you\n-ohyou'reapproachingme\n-you'reuseless\n-you'restupid\n-nicecockbro\n-ora\n-muda\n-zawarudo\n-smoll brain\n-manofculture\n-genderequality\n-nani\n-thecakeisalie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-deskbeats\-niconiconii\n-dance\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
+        message.author.send("Fun:\ni love you\n-ohyou'reapproachingme\n-you'reuseless\n-you'restupid\n-nicecockbro\n-ora\n-muda\n-zawarudo\n-smoll brain\n-manofculture\n-genderequality\n-nani\n-thecakeisalie\n
+        -name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-deskbeats\n-niconiconii\n-dance\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
     } else if (command === "you'reuseless") {
         message.channel.send("I'm not useless, i'm a goddess... Baka")
     } else if (command === "you'restupid") {
@@ -185,6 +186,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/nico-nico-gif-7552264');
     } else if(command === 'nicecockbro'){
         message.channel.send('https://media.makeameme.org/created/yo-nice-cock.jpg')
+    } else if(command === 'bru'){
+        message.channel.send('https://tenor.com/view/bruh-gif-5156041')
     }
 })
 
