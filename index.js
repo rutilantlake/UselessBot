@@ -235,6 +235,7 @@ client.on('message', message => {
         if(args[0] === 'wa'){
             if(args[1] === 'mou'){
                 if(args[2] === 'shindeiru'){
+                    message.channel.send('-NANI')
                     message.channel.send('https://tenor.com/view/omae-wa-mou-shindareo-youre-already-dead-anime-omae-wa-mo-anime-gif-15643835')
                 }
             }
