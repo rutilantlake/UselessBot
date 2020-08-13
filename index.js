@@ -66,10 +66,13 @@ client.on('message', message => {
         } else if (!args.length){
             message.channel.send("This bot is made by •Pink•#4934, please contact me if there are any bugs.")
         }
-    } else if (command === "you'reuseless") {
-        message.channel.send("I'm not useless, i'm a goddess... Baka")
-    } else if (command === "you'restupid") {
-        message.channel.send("no u")
+    } else if (command === "you're") {
+        if(args[0] === 'useless'){
+            message.channel.send("I'm not useless i'm a goddess... Baka")
+            message.channel.send('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fgt500btm%2Fkonosuba%2F&psig=AOvVaw3FqW-XjSVDYIiSbd8OlkCJ&ust=1597395470286000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCq1P7nl-sCFQAAAAAdAAAAABAT')
+        } else if(args[0] === 'stupid'){
+            message.channel.send('no u')
+        }
     } else if (command === 'explosion') {
         message.channel.send('https://tenor.com/view/konosoba-megumin-explosion-gif-7559840')
     } else if (command === 'userinformation') {
