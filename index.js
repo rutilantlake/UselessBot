@@ -60,7 +60,7 @@ client.on('message', message => {
         message.channel.send('https://www.9anime.to')
     } else if (command === 'info') {
         if (args[0] === 'commands') {
-            message.author.send("Fun:\ni love you\n-oh you're approaching me\n-you're useless\n-you're stupid\n-nice cock\n-ora\n-muda\n-za warudo\n-smoll brain\n-man of culture\n-genderequality\n-nani\n-the cake is a lie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-deskbeats\n-nico nico nii\n-dance\n-bru\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
+            message.author.send("Fun:\ni love you\n-oh you're approaching me\n-you're useless\n-you're stupid\n-nice cock\n-ora\n-muda\n-za warudo\n-smoll brain\n-man of culture\n-genderequality\n-nani\n-the cake is a lie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-deskbeats\n-nico nico nii\n-not yet\n-dance\n-bru\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934")
         } else if (args[0] === 'version') {
             message.channel.send('Version ' + version)
         } else if (!args.length) {
