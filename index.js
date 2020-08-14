@@ -9,7 +9,7 @@ const { groupCollapsed } = require('console');
 const { getHeapSpaceStatistics } = require('v8');
 const commands = "Fun:\ni love you\n-oh you're approaching me\n-you're useless\n-you're stupid\n-nice cock\n-ora\n-muda\n-za warudo\n-smoll brain\n-man of culture\n-genderequality\n-nani\n-the cake is a lie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\n-baka\n-omae wa mou shindeiru\n-deskbeats\n-nico nico nii\n-not yet\n-dance\n-bru\n-facepalm\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934"
 
-let version = "1.2.7"
+let version = "1.5.24"
 
 require('events').EventEmitter.defaultMaxListeners = 15;
 
@@ -240,6 +240,12 @@ client.on('message', message => {
                 }
             }
         }
+    } else if(command === 'are'){
+        if(args[0] === 'are'){
+            message.channel.send('https://tenor.com/view/jojo-yare-yare-daze-jotaro-good-grief-okay-gif-13569904')
+        }
+    } else if(command === 'rero'){
+        message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/743744781896646666/unknown.gif')
     }
 })
 
