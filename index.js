@@ -51,7 +51,7 @@ client.on('message', message => {
     } else if(message.content.includes('rem')){
         const attachment4 = new Discord.MessageAttachment('./rem.jpg');
         message.channel.send(attachment4);    
-    } else(message.content === 'yes'){
+    } else if(message.content === 'yes'){
         message.channel.send('https://tenor.com/view/yes-jotaro-kujo-jojos-gif-7297252')
     }
 })
