@@ -210,10 +210,9 @@ client.on('message', message => {
     } else if (command === 'nico') {
         if (args[0] === 'nico') {
             if (args[1] === 'nii') {
-                message.channel.send('https://tenor.com/view/za-warudo-zawarudo-the-world-gif-10578246');
+                message.channel.send('https://tenor.com/view/nico-nico-gif-7552264');
             }
         }
-        x
     } else if (command === 'nice') {
         if (args[0] === 'cock') {
             message.channel.send('https://media.makeameme.org/created/yo-nice-cock.jpg')
