@@ -218,7 +218,7 @@ client.on('message', message => {
             message.channel.send('https://media.makeameme.org/created/yo-nice-cock.jpg')
         }
     } else if (command === 'bruh') {
-        message.channel.send('https://tenor.com/view/bruh-gif-5156041')
+        message.channel.send('https://tenor.com/view/chkoupistani-annoyed-irritated-gif-15457748')
     } else if (command === 'github') {
         message.channel.send('https://github.com/rutilantlake/UselessBot')
     } else if (command === 'dab') {
@@ -247,6 +247,8 @@ client.on('message', message => {
         }
     } else if(command === 'rero'){
         message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/743744781896646666/unknown.gif')
+    } else if(command === 'wryyy'){
+        message.channel.send('https://tenor.com/view/no-game-life-steph-mad-gif-5894330')
     }
 })
 
