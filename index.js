@@ -264,7 +264,7 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/sailor-moon-suit-old-man-peace-sign-sailor-scout-anime-gif-14298094');
     } else if(command === 'hot'){
         message.channel.send('https://tenor.com/view/anime-girl-bleed-gif-14319663');
-    } else if(command === 'perfect'){
+    } else if(command === ('perfect'){
         message.channel.send('https://tenor.com/view/excellent-thesimpsons-mr-burns-evilplan-gif-4699553')
     }
 })
