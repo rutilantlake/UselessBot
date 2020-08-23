@@ -257,10 +257,9 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/sasuke-thinking-anime-naruto-gif-13593873')
     } else if(command === 'cry'){
         message.channel.send('https://tenor.com/view/anime-umaru-cry-crying-tears-gif-5184314')
-    } else if(command === 'big'){
-        if(args[0] === 'brain'){
+    } else if (command === 'big') {
+        if (args[0] === 'brain') {
             message.channel.send('https://tenor.com/view/anime-anime-glasses-stare-glasses-gif-15313333')
-        }
     } else if(command === 'cute'){
         message.channel.send('https://tenor.com/view/sailor-moon-suit-old-man-peace-sign-sailor-scout-anime-gif-14298094')
     } else if(command === 'hot'){
