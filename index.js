@@ -7,7 +7,7 @@ const { setTimeout } = require('timers');
 const { send } = require('process');
 const { groupCollapsed } = require('console');
 const { getHeapSpaceStatistics } = require('v8');
-const commands = "Fun:\ni love you\n-oh you're approaching me\n-you're useless\n-you're stupid\n-nice cock\n-ora\n-muda\n-za warudo\n-big brain\n-smoll brain\n-man of culture\n-genderequality\n-nani\n-the cake is a lie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\ninteresting\nplease\nnice\nhey\n:3\nOwO\nUwU\nlolicon\n-baka\n-omae wa mou shindeiru\n-deskbeats\n-yare yare\n-nico nico nii\n-not yet\nhmmm\n-cute\n-hot\n-dance\n-bruh\n-facepalm\n-wryyy\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934"
+const commands = "Fun:\ni love you\n-oh you're approaching me\n-you're useless\n-you're stupid\n-nice cock\n-ora\n-muda\n-za warudo\n-big brain\n-smoll brain\n-man of culture\n-genderequality\n-nani\n-the cake is a lie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\ninteresting\nplease\nnice\nhey\n:3\nOwO\nUwU\nlolicon\n-baka\n-omae wa mou shindeiru\n-perfect\n-deskbeats\n-yare yare\n-nico nico nii\n-not yet\nhmmm\n-cute\n-hot\n-dance\n-bruh\n-facepalm\n-wryyy\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934"
 
 let version = "1.5.24"
 
@@ -264,6 +264,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/sailor-moon-suit-old-man-peace-sign-sailor-scout-anime-gif-14298094');
     } else if(command === 'hot'){
         message.channel.send('https://tenor.com/view/anime-girl-bleed-gif-14319663');
+    } else if(command === 'perfect'){
+        message.channel.send('https://tenor.com/view/excellent-thesimpsons-mr-burns-evilplan-gif-4699553')
     }
 })
 
