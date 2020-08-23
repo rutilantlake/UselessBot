@@ -229,7 +229,7 @@ client.on('message', message => {
         message.channel.send('https://i.redd.it/jkkl5ltfgnf01.png')
     } else if (command === 'not') {
         if (args[0] === 'yet') {
-            message.channel.send('https://tenor.com/view/phineasandferb-phineas-ferb-notyet-notyetferb-gif-17986942')
+            message.channel.send('https://tenor.com/view/phineasandferb-phineas-ferb-notyet-notyetferb-gif-17986942');
         }
     } else if(command === 'big'){
         if(args[0] === 'dig'){
@@ -240,30 +240,30 @@ client.on('message', message => {
         if(args[0] === 'wa'){
             if(args[1] === 'mou'){
                 if(args[2] === 'shindeiru'){
-                    message.channel.send('-NANI')
-                    message.channel.send('https://tenor.com/view/omae-wa-mou-shindareo-youre-already-dead-anime-omae-wa-mo-anime-gif-15643835')
+                    message.channel.send('-NANI');
+                    message.channel.send('https://tenor.com/view/omae-wa-mou-shindareo-youre-already-dead-anime-omae-wa-mo-anime-gif-15643835');
                 }
             }
         }
     } else if(command === 'yare'){
         if(args[0] === 'yare'){
-            message.channel.send('https://tenor.com/view/jojo-yare-yare-daze-jotaro-good-grief-okay-gif-13569904')
+            message.channel.send('https://tenor.com/view/jojo-yare-yare-daze-jotaro-good-grief-okay-gif-13569904');
         }
     } else if(command === 'rero'){
-        message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/743744781896646666/unknown.gif')
+        message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/743744781896646666/unknown.gif');
     } else if(command === 'wryyy'){
-        message.channel.send('https://tenor.com/view/no-game-life-steph-mad-gif-5894330')
+        message.channel.send('https://tenor.com/view/no-game-life-steph-mad-gif-5894330');
     } else if(command === 'hmmm'){
-        message.channel.send('https://tenor.com/view/sasuke-thinking-anime-naruto-gif-13593873')
+        message.channel.send('https://tenor.com/view/sasuke-thinking-anime-naruto-gif-13593873');
     } else if(command === 'cry'){
-        message.channel.send('https://tenor.com/view/anime-umaru-cry-crying-tears-gif-5184314')
+        message.channel.send('https://tenor.com/view/anime-umaru-cry-crying-tears-gif-5184314');
     } else if (command === 'big') {
         if (args[0] === 'brain') {
-            message.channel.send('https://tenor.com/view/anime-anime-glasses-stare-glasses-gif-15313333')
+            message.channel.send('https://tenor.com/view/anime-anime-glasses-stare-glasses-gif-15313333');
     } else if(command === 'cute'){
-        message.channel.send('https://tenor.com/view/sailor-moon-suit-old-man-peace-sign-sailor-scout-anime-gif-14298094')
+        message.channel.send('https://tenor.com/view/sailor-moon-suit-old-man-peace-sign-sailor-scout-anime-gif-14298094');
     } else if(command === 'hot'){
-        message.channel.send('https://tenor.com/view/anime-girl-bleed-gif-14319663')
+        message.channel.send('https://tenor.com/view/anime-girl-bleed-gif-14319663');
     }
 })
 
