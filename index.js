@@ -7,7 +7,7 @@ const { setTimeout } = require('timers');
 const { send } = require('process');
 const { groupCollapsed } = require('console');
 const { getHeapSpaceStatistics } = require('v8');
-const commands = "Fun:\ni love you\n-oh you're approaching me\n-you're useless\n-you're stupid\n-nice cock\n-ora\n-muda\n-za warudo\n-smoll brain\n-man of culture\n-genderequality\n-nani\n-the cake is a lie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\nplease\nnice\nhey\n:3\nOwO\nUwU\nlolicon\n-baka\n-omae wa mou shindeiru\n-deskbeats\n-yare yare\n-nico nico nii\n-not yet\n-dance\n-bruh\n-facepalm\n-wryyy\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934"
+const commands = "Fun:\ni love you\n-oh you're approaching me\n-you're useless\n-you're stupid\n-nice cock\n-ora\n-muda\n-za warudo\n-smoll brain\n-man of culture\n-genderequality\n-nani\n-the cake is a lie\n-name\n-ok\n-itadakimasu\n\n\nGIF:\nhehe\nwhy\nomg\ncute\nhuh\nno\ninteresting\nplease\nnice\nhey\n:3\nOwO\nUwU\nlolicon\n-baka\n-omae wa mou shindeiru\n-deskbeats\n-yare yare\n-nico nico nii\n-not yet\nhmmm\n-dance\n-bruh\n-facepalm\n-wryyy\n-slap\n-EXPLOSION\n-objection\n-pathetic\n-goodnight\n-begin\n\n\nInfo:\n-github\n-infoversion\n-infocommands\n-website (anime streaming website)\n-userinformation\n-mc (info The Pros)\n-mcserver (info Dawn's server)\n\n\nMade by: •Pink•#4934"
 
 let version = "1.5.24"
 
@@ -55,6 +55,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/yes-jotaro-kujo-jojos-gif-7297252')
     } else if(message.content.includes('lolicon')){
         message.channel.send('https://tenor.com/view/jojo-bizarre-jojos-adventure-fbi-on-the-other-side-gif-13841785')
+    } else if(message.content === 'interesting'){
+        message.channel.send('https://tenor.com/view/hmmm-mmmm-interesting-batman-gif-11990772')
     }
 })
 
@@ -251,6 +253,10 @@ client.on('message', message => {
         message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/743744781896646666/unknown.gif')
     } else if(command === 'wryyy'){
         message.channel.send('https://tenor.com/view/no-game-life-steph-mad-gif-5894330')
+    } else if(command === 'hmmm'){
+        message.channel.send('https://tenor.com/view/sasuke-thinking-anime-naruto-gif-13593873')
+    } else if(command === 'cry'){
+        message.channel.send('https://tenor.com/view/anime-umaru-cry-crying-tears-gif-5184314')
     }
 })
 
