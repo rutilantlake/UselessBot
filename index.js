@@ -267,6 +267,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/anime-girl-bleed-gif-14319663');
     } else if (command === 'perfect'){
         message.channel.send('https://tenor.com/view/excellent-thesimpsons-mr-burns-evilplan-gif-4699553');
+    } else if(command === 'mods'){
+        message.user.send('https://drive.google.com/file/d/1Kunw392jOj-iZM3ZCB8uob4KOdautCXv/view?usp=sharing')
     }
 })
 
