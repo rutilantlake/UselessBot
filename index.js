@@ -268,7 +268,7 @@ client.on('message', message => {
     } else if (command === 'perfect'){
         message.channel.send('https://tenor.com/view/excellent-thesimpsons-mr-burns-evilplan-gif-4699553');
     } else if(command === 'mods'){
-        message.user.send('https://drive.google.com/file/d/1Kunw392jOj-iZM3ZCB8uob4KOdautCXv/view?usp=sharing')
+        message.channel.send('https://drive.google.com/file/d/1Kunw392jOj-iZM3ZCB8uob4KOdautCXv/view?usp=sharing')
     }
 })
 
