@@ -57,6 +57,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/jojo-bizarre-jojos-adventure-fbi-on-the-other-side-gif-13841785')
     } else if(message.content === 'interesting'){
         message.channel.send('https://tenor.com/view/hmmm-mmmm-interesting-batman-gif-11990772')
+    } else if(message.content === 'me?'){
+        message.channel.send('https://media.discordapp.net/attachments/674614766886453278/759795050003038209/Naamloos-1.png')
     }
 })
 
@@ -269,6 +271,8 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/excellent-thesimpsons-mr-burns-evilplan-gif-4699553');
     } else if(command === 'mods'){
         message.channel.send('https://drive.google.com/file/d/1Kunw392jOj-iZM3ZCB8uob4KOdautCXv/view?usp=sharing')
+    } else if(command === "yeet"){
+        message.channel.send('https://media.tenor.co/videos/1def80ea99034fd95e74677cb007c394/mp4')
     }
 })
 
