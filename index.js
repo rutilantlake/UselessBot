@@ -54,11 +54,11 @@ client.on('message', message => {
     } else if(message.content === 'yes'){
         message.channel.send('https://tenor.com/view/yes-jotaro-kujo-jojos-gif-7297252')
     } else if(message.content.includes('lolicon')){
-        message.channel.send('https://tenor.com/view/jojo-bizarre-jojos-adventure-fbi-on-the-other-side-gif-13841785')
+        message.channel.send('https://tenor.com/view/jojo-bizarre-jojos-adventure-fbi-on-the-other-side-gif-13841785');
     } else if(message.content === 'interesting'){
-        message.channel.send('https://tenor.com/view/hmmm-mmmm-interesting-batman-gif-11990772')
+        message.channel.send('https://tenor.com/view/hmmm-mmmm-interesting-batman-gif-11990772');
     } else if(message.content === 'me?'){
-        message.channel.send('https://media.discordapp.net/attachments/674614766886453278/759795050003038209/Naamloos-1.png')
+        message.channel.send('https://media.discordapp.net/attachments/674614766886453278/759795050003038209/Naamloos-1.png');
     }
 })
 
@@ -270,9 +270,9 @@ client.on('message', message => {
     } else if (command === 'perfect'){
         message.channel.send('https://tenor.com/view/excellent-thesimpsons-mr-burns-evilplan-gif-4699553');
     } else if(command === 'mods'){
-        message.channel.send('https://drive.google.com/file/d/1Kunw392jOj-iZM3ZCB8uob4KOdautCXv/view?usp=sharing')
+        message.channel.send('https://drive.google.com/file/d/1Kunw392jOj-iZM3ZCB8uob4KOdautCXv/view?usp=sharing');
     } else if(command === "yeet"){
-        message.channel.send('https://media.tenor.co/videos/1def80ea99034fd95e74677cb007c394/mp4')
+        message.channel.send('https://media.tenor.co/videos/1def80ea99034fd95e74677cb007c394/mp4');
     }
 })
 
