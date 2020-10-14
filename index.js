@@ -48,20 +48,20 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/owo-whats-this-intensifies-mad-gif-12266002')
     } else if (message.content === ":3") {
         message.channel.send('https://tenor.com/view/nekopara-anime-smile-happy-delighted-gif-16605255')
-    } else if(message.content.includes('rem')){
+    } else if (message.content.includes('rem')) {
         const attachment4 = new Discord.MessageAttachment('./rem.jpg');
-        message.channel.send(attachment4);    
-    } else if(message.content === 'yes'){
+        message.channel.send(attachment4);
+    } else if (message.content === 'yes') {
         message.channel.send('https://tenor.com/view/yes-jotaro-kujo-jojos-gif-7297252')
-    } else if(message.content.includes('lolicon')){
+    } else if (message.content.includes('lolicon')) {
         message.channel.send('https://tenor.com/view/jojo-bizarre-jojos-adventure-fbi-on-the-other-side-gif-13841785');
-    } else if(message.content === 'interesting'){
+    } else if (message.content === 'interesting') {
         message.channel.send('https://tenor.com/view/hmmm-mmmm-interesting-batman-gif-11990772');
-    } else if(message.content.includes === 'watashi'){
+    } else if (message.content === 'you') {
         message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/759795050003038209/Naamloos-1.png');
-    } else if(message.content ===':o'){
+    } else if (message.content === ':o') {
         message.channel.send('https://media.tenor.co/videos/23da04e9110886fe3755abc78ea042ac/mp4')
-    } else if(message.content === 'hm hm'){
+    } else if (message.content === 'hm hm') {
         message.channel.send('https://tenor.com/view/regular-show-mordekai-rigby-hm-hm-hm-ahuh-gif-5116055')
     }
 })
@@ -126,7 +126,7 @@ client.on('message', message => {
     } else if (command === 'dance') {
         message.channel.send('https://media.tenor.com/images/3f324bbd9577d28eb1fb364ad9f2acfe/tenor.gif')
     } else if (command === 'smoll') {
-        if(args[0]==='brain'){
+        if (args[0] === 'brain') {
             message.channel.send('smoll brain baka')
             message.channel.send('https://i.imgur.com/he3ywUg.png0')
         }
@@ -134,8 +134,8 @@ client.on('message', message => {
         const attachment2 = new Discord.MessageAttachment('./facepalm.gif')
         message.channel.send(attachment2)
     } else if (command === 'man') {
-        if(args[0]==='of'){
-            if(args[1]==='culture'){
+        if (args[0] === 'of') {
+            if (args[1] === 'culture') {
                 message.channel.send('https://cdn.discordapp.com/attachments/563892241836408833/732933234865995786/manofculture.png')
             }
         }
@@ -237,48 +237,52 @@ client.on('message', message => {
         if (args[0] === 'yet') {
             message.channel.send('https://tenor.com/view/phineasandferb-phineas-ferb-notyet-notyetferb-gif-17986942');
         }
-    } else if(command === 'big'){
-        if(args[0] === 'dig'){
+    } else if (command === 'big') {
+        if (args[0] === 'dig') {
             const attachment5 = new Discord.MessageAttachment('./big.gif');
             message.channel.send(attachment5);
         }
-    } else if(command === 'omae'){
-        if(args[0] === 'wa'){
-            if(args[1] === 'mou'){
-                if(args[2] === 'shindeiru'){
+    } else if (command === 'omae') {
+        if (args[0] === 'wa') {
+            if (args[1] === 'mou') {
+                if (args[2] === 'shindeiru') {
                     message.channel.send('-NANI');
                     message.channel.send('https://tenor.com/view/omae-wa-mou-shindareo-youre-already-dead-anime-omae-wa-mo-anime-gif-15643835');
                 }
             }
         }
-    } else if(command === 'yare'){
-        if(args[0] === 'yare'){
+    } else if (command === 'yare') {
+        if (args[0] === 'yare') {
             message.channel.send('https://tenor.com/view/jojo-yare-yare-daze-jotaro-good-grief-okay-gif-13569904');
         }
-    } else if(command === 'rero'){
+    } else if (command === 'rero') {
         message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/743744781896646666/unknown.gif');
-    } else if(command === 'wryyy'){
+    } else if (command === 'wryyy') {
         message.channel.send('https://tenor.com/view/no-game-life-steph-mad-gif-5894330');
-    } else if(command === 'hmmm'){
+    } else if (command === 'hmmm') {
         message.channel.send('https://tenor.com/view/sasuke-thinking-anime-naruto-gif-13593873');
-    } else if(command === 'cry'){
+    } else if (command === 'cry') {
         message.channel.send('https://tenor.com/view/anime-umaru-cry-crying-tears-gif-5184314');
     } else if (command === 'big') {
         if (args[0] === 'brain') {
             message.channel.send('https://tenor.com/view/anime-anime-glasses-stare-glasses-gif-15313333');
         }
-    } else if(command === 'cute'){
+    } else if (command === 'cute') {
         message.channel.send('https://tenor.com/view/sailor-moon-suit-old-man-peace-sign-sailor-scout-anime-gif-14298094');
-    } else if(command === 'hot'){
+    } else if (command === 'hot') {
         message.channel.send('https://tenor.com/view/anime-girl-bleed-gif-14319663');
-    } else if (command === 'perfect'){
+    } else if (command === 'perfect') {
         message.channel.send('https://tenor.com/view/excellent-thesimpsons-mr-burns-evilplan-gif-4699553');
-    } else if(command === 'mods'){
+    } else if (command === 'mods') {
         message.channel.send('https://drive.google.com/file/d/1Kunw392jOj-iZM3ZCB8uob4KOdautCXv/view?usp=sharing');
-    } else if(command === "yeet"){
+    } else if (command === "yeet") {
         message.channel.send('https://media.tenor.co/videos/1def80ea99034fd95e74677cb007c394/mp4');
-    } else if(command === 'do you understand'){
-        message.channel.send('https://tenor.com/view/jojo-do-you-understand-jojos-bizarre-adventure-anime-slime-gif-17398513')
+    } else if (command === 'do') {
+        if (args[0] === 'you') {
+            if (args[1] === 'understand') {
+                message.channel.send('https://tenor.com/view/jojo-do-you-understand-jojos-bizarre-adventure-anime-slime-gif-17398513')
+            }
+        }
     }
 })
 
