@@ -57,10 +57,12 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/jojo-bizarre-jojos-adventure-fbi-on-the-other-side-gif-13841785');
     } else if(message.content === 'interesting'){
         message.channel.send('https://tenor.com/view/hmmm-mmmm-interesting-batman-gif-11990772');
-    } else if(message.content === 'me?'){
-        message.channel.send('https://media.discordapp.net/attachments/674614766886453278/759795050003038209/Naamloos-1.png');
+    } else if(message.content.includes === 'watashi'){
+        message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/759795050003038209/Naamloos-1.png');
     } else if(message.content ===':o'){
         message.channel.send('https://media.tenor.co/videos/23da04e9110886fe3755abc78ea042ac/mp4')
+    } else if(message.content === 'hm hm'){
+        message.channel.send('https://tenor.com/view/regular-show-mordekai-rigby-hm-hm-hm-ahuh-gif-5116055')
     }
 })
 
