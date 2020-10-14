@@ -277,6 +277,8 @@ client.on('message', message => {
         message.channel.send('https://drive.google.com/file/d/1Kunw392jOj-iZM3ZCB8uob4KOdautCXv/view?usp=sharing');
     } else if(command === "yeet"){
         message.channel.send('https://media.tenor.co/videos/1def80ea99034fd95e74677cb007c394/mp4');
+    } else if(command === 'do you understand'){
+        message.channel.send('https://tenor.com/view/jojo-do-you-understand-jojos-bizarre-adventure-anime-slime-gif-17398513')
     }
 })
 
