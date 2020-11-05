@@ -61,6 +61,8 @@ client.on('message', message => {
         message.channel.send('https://media.tenor.co/videos/23da04e9110886fe3755abc78ea042ac/mp4')
     } else if (message.content === 'hm hm') {
         message.channel.send('https://tenor.com/view/regular-show-mordekai-rigby-hm-hm-hm-ahuh-gif-5116055')
+    } else if (message.content === ':p') {
+        message.channel.send('https://imgur.com/X2z5k4z')
     }
 })
 
