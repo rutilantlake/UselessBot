@@ -36,7 +36,7 @@ client.on('message', message => {
     } else if (message.content === 'omg') {
         message.channel.send('https://tenor.com/view/oh-my-god-oh-my-gah-anime-cooking-gif-13579892')
     } else if (message.content === 'no') {
-        const attachment = new Discord.MessageAttachment('./sitboy.gif')
+        message.channel.send('https://cdn.discordapp.com/attachments/674614766886453278/775308415656132628/1604437767802.jpg')
         message.channel.send(attachment)
     } else if (message.content === 'please') {
         message.channel.send('https://tenor.com/view/skipbeat-kyoko-mogami-cry-huhu-gif-8564038')
