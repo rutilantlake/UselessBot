@@ -58,11 +58,13 @@ client.on('message', message => {
     } else if (message.content === 'interesting') {
         message.channel.send('https://tenor.com/view/hmmm-mmmm-interesting-batman-gif-11990772');
     } else if (message.content === ':o') {
-        message.channel.send('https://media.tenor.co/videos/23da04e9110886fe3755abc78ea042ac/mp4')
+        message.channel.send('https://tenor.com/view/surprised-pikachu-pokemon-shock-surprised-pikachu-gif-15357817')
     } else if (message.content === 'hm hm') {
         message.channel.send('https://tenor.com/view/regular-show-mordekai-rigby-hm-hm-hm-ahuh-gif-5116055')
     } else if (message.content === ':p') {
         message.channel.send('https://imgur.com/X2z5k4z')
+    } else if (message.content.includes === "horny"){
+        message.channel.send('https://tenor.com/view/anime-boob-hentai-nico-yazawa-love-live-gif-17393176')
     }
 })
 
